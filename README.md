@@ -1,37 +1,29 @@
-# Session ID - Session Title
+# USP160 - SAP Customer Data Platform
 
 ## Description
-
-This repository contains the material for the SAP TechEd 2021 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2021 session called USP160 - SAP Customer Data Platform.  
 
 ## Overview
-
-This session introduces attendees to...
+This session introduces attendees to integrating SAP CDP on a mock commerce site for integrating with different systems and improving the customer insights and engagement. 
 
 ## Requirements
-
-The requirements to follow the exercises in this repository are...
+* Clone the repo
+* `cd exercise && npm i`
+* `npm start`
 
 ## Exercises
-
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+In this exercise we'll integrate into our SAP CDP Business-Unit:
+* Web-Client Application
+  * Reporting client side events directly to SAP CDP
+* CDC CIAM Application
+  * Reporting registration and login events
+* WooCommerce Application
+  * Reporting Order events
+* Emarsys Application
+  * Creating a customer journey for engaging a customer via email
+* Create a CDP Connector
+  * Simulating activating a priority delivery for a VIP customer
+ 
 
 ## How to obtain support
 
