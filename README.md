@@ -1,7 +1,7 @@
 # ISP160 - SAP Customer Data Platform
 
 ## Description
-This repository contains the material for the SAP TechEd 2021 session called USP160 - SAP Customer Data Platform.  
+This repository contains the material for the SAP TechEd 2021 session called ISP160 - SAP Customer Data Platform.  
 
 ## Overview
 This session introduces attendees to integrating SAP CDP on a mock commerce site for integrating with different systems and improving the customer insights and engagement. 
