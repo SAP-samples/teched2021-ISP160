@@ -1,4 +1,4 @@
-# USP160 - SAP Customer Data Platform
+# ISP160 - SAP Customer Data Platform
 
 ## Description
 This repository contains the material for the SAP TechEd 2021 session called USP160 - SAP Customer Data Platform.  
