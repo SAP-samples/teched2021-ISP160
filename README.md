@@ -12,6 +12,7 @@ This session introduces attendees to integrating SAP CDP on a mock commerce site
 * `npm start`
 * `cd server && npm i`
 * `npm start`
+* [if you are facing issues, try deleting the `package.lock` file]
 
 ## Access
 * In [this spreadsheet](https://sap-my.sharepoint.com/:x:/p/aliza_zeldin/EUD9VtKQflBKncwEtu2KuQsBV1c39jz9ivl3VHkGwy9yFw?e=KA3t9F) you can find a list of test SAP CDP business-units
