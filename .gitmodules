@@ -1,0 +1,3 @@
+[submodule "shopping-cart-app"]
+	path = shopping-cart-app
+	url = https://github.com/iBaryo/Angular-ShoppingCart.git
