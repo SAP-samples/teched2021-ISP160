@@ -2,6 +2,7 @@
 ## Motivation
 In this exercise will get acquainted with SAP CDP Customer Journeys: a workflow that can initiate customer engagement by activating actions of connected destination applications.
 We'll also discuss how to manage access to outbound customer data via its action purposes.
+
 ## Walkthrough
 * Create a new segment: VIP
   * Values:
@@ -28,7 +29,6 @@ We'll also discuss how to manage access to outbound customer data via its action
     * firstName -> First Name
     * lastName -> Last Name
     * primaryEmail -> Email
-    * * Edit "Create a Contact in Emarsys" action:
 * Edit "Trigger External Event" action:
   * Settings screen:
     * Rename to: Trigger Email Campaign

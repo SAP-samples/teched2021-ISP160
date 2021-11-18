@@ -17,12 +17,14 @@ In this exercise we'll introduce SAP CDP's data governance and utilize it in ord
       * preferences.externalId -> "Processing Purposes".externalId
       * preferences.status -> "Processing Purposes".status
       * preferences.date -> "Processing Purposes".date
+* Define a `PrimaryEmail Matching Rule`:
+  * https://help.sap.com/viewer/8438f051ded544d2ba1303e67fc5ff86/PROD/en-US/173429fdcb0f4404b4f6bb4cf293051a.html
 * Connect a new Source: WooCommerce Application
   * https://help.sap.com/viewer/8438f051ded544d2ba1303e67fc5ff86/PROD/en-US/1d4137e313d8413da6a9b508c87a47bf.html
   * Configuration:
     * username: ck_fd2fe536455f1d9891e0603b178139a3f3ddaa50
     * password: cs_c216cd8894207bf54adbbfb433884c23227944f8
-    * api base url: https://myshop.gigya-cs.com/
+    * api base url: https://myshop.gigya-cs.com
 * Edit its "Listen for new or updated order in real-time" event:
   * Settings screen:
     * Set its Required Processing Purposes to `marketing`

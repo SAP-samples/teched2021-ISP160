@@ -8,20 +8,18 @@ In this exercise, we'll integrate SAP Customer Identity Access Management soluti
       * ciamId: `string`
     * Map it to the field with the same name under the `Profile` schema
   * In the front-end code, extend the `ReportService` to be able to send this event as well
-* Define a `PrimaryEmail Matching Rule`:
-  * https://help.sap.com/viewer/8438f051ded544d2ba1303e67fc5ff86/PROD/en-US/173429fdcb0f4404b4f6bb4cf293051a.html
 * Create a new SAP Customer Data Cloud Application:
   * https://help.sap.com/viewer/8438f051ded544d2ba1303e67fc5ff86/PROD/en-US/05cd8e1ee3dd4adb98a338f734880dd0.html
   * With the following configuration:
     * userKey: AMPGSznzSCGg
     * secret: FIxkGx2qCzxEMCQy6wqVQ30uBKrQPJXf
-    * apiKey: 3_qW1SAHjsrc_SM4QN7YIdaoQZcniGL_OZ_XZmHMkFo4ipSobO4hoADyPrOsqw59F7
+    * apiKey: 4_zF8rUmzz9jw4erPQ4QkY8Q
     * api base url: https://accounts.us1.gigya.com
 * Edit the "Get full accounts in batch" event:
   * Map the following fields:
-    * firstName -> firstName
-    * lastName -> lastName 
-    * email -> primaryEmail
+    * profile.firstName -> firstName
+    * profile.lastName -> lastName 
+    * profile.email -> primaryEmail
     * UID -> ciamId
   * Schedule the polling to run every minute
 * Integrate SAP Customer Data Cloud to the front-end code:
