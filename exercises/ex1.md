@@ -12,7 +12,7 @@ In this exercise we'll collect cart activities for anonymous users and create in
   * https://help.sap.com/viewer/8438f051ded544d2ba1303e67fc5ff86/PROD/en-US/1246367efca441659ec9e2f53b120864.html
   * Add `cdp.vcap.me` as a Trusted Domain
 * Create a `new Web Client Event`:
-  * Name it "On Add To Card"
+  * Name it "On Add To Cart"
   * Extend its model with:
     * "product": `string`
     * "category": `string`

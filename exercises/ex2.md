@@ -27,7 +27,7 @@ In this exercise, we'll integrate SAP Customer Identity Access Management soluti
 ```html
 <script
       type="text/javascript"
-      src="https://cdns.gigya.com/js/gigya.js?apikey=3_qW1SAHjsrc_SM4QN7YIdaoQZcniGL_OZ_XZmHMkFo4ipSobO4hoADyPrOsqw59F7"
+      src="https://cdns.gigya.com/js/gigya.js?apikey=4_zF8rUmzz9jw4erPQ4QkY8Q"
     ></script>
 ```
   * Add an Angular Provider for injecting the SDK to requesting components [via `InjectionToken`].
