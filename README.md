@@ -7,19 +7,20 @@ This repository contains the material for the SAP TechEd 2021 session called ISP
 This session introduces attendees to integrating SAP CDP on a mock commerce site for integrating with different systems and improving the customer insights and engagement. 
 
 ## Requirements
-* Clone the repo
+* `git clone https://github.com/SAP-samples/teched2021-ISP160 --recurse-submodules`
 * `cd exercise && npm i`
+* `npm run server`
 * `npm start`
 
 ## Exercises
-In this exercise we'll integrate into our SAP CDP Business-Unit:
-* Web-Client Application
+In this exercise we'll configure SAP CDP Business-Unit:
+* Integration with a Web-Client Application
   * Reporting client side events directly to SAP CDP
-* CDC CIAM Application
+* Integration with a CDC CIAM Application
   * Reporting registration and login events
-* WooCommerce Application
+* Integration with a WooCommerce Application
   * Reporting Order events
-* Emarsys Application
+* Integration with an Emarsys Application
   * Creating a customer journey for engaging a customer via email
 * Create a CDP Connector
   * Simulating activating a priority delivery for a VIP customer
