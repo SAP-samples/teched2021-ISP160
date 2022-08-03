@@ -18,10 +18,10 @@ In this exercise, we'll integrate SAP Customer Identity Access Management soluti
 * Edit the "Get full accounts in batch" event:
   * Map the following fields:
     * profile.firstName -> firstName
-    * profile.lastName -> lastName 
-    * profile.email -> primaryEmail
+    * profile.lastName -> lastName
+    * email -> primaryEmail
     * UID -> ciamId
-  * Schedule the polling to run every minute
+  * Schedule the polling to run every 15 minutes
 * Integrate SAP Customer Data Cloud to the front-end code:
   * Add a script for loading its SDK in `index.html`:
 ```html
