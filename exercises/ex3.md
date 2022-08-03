@@ -34,7 +34,7 @@ In this exercise we'll introduce SAP CDP's data governance and utilize it in ord
     * line_items.product -> orders.name (create field if not exist)
     * line_items.id -> orders.id
   * Listener screen:
-    * Set the authentification type to be via query string
+    * Set the authentication type to be via query string
     * Copy the Webhook URL
     * Configure it in WooCommerce:
       * https://myshop.gigya-cs.com/wp-login.php?isadmin=true 
