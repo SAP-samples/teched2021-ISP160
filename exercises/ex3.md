@@ -31,7 +31,8 @@ In this exercise we'll introduce SAP CDP's data governance and utilize it in ord
   * Mapping screen:
     * billing.email -> profile.primaryEmail
     * line_items.total -> orders.amount
-    * line_items.product -> orders.name
+    * line_items.product -> orders.name (create field if not exist)
+    * line_items.id -> orders.id
   * Listener screen:
     * Set the authentication type to be via query string
     * Copy the Webhook URL

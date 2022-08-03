@@ -40,9 +40,9 @@ We'll also discuss how to manage access to outbound customer data via its action
     * primaryEmail -> external_id
     * [Do not change the rest of the mapped fields]
 * Make sure to enable both actions
-* Go to the Journeys screen:
+* Go to the CX Flows screen:
   * https://help.sap.com/viewer/8438f051ded544d2ba1303e67fc5ff86/PROD/en-US/dffd9497a3c74ec9b0808ede7fdf4e45.html
-  * We'll create 2 journeys:
+  * We'll create 2 CX Flows:
     * "Sync new customers"
       * Trigger: Customer Update
         * Status: created
