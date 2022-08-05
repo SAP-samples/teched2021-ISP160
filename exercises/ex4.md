@@ -14,13 +14,13 @@ We'll also discuss how to manage access to outbound customer data via its action
     * Check all fields under the `Profile` schema
   * `marketing`
     * Check only `primaryEmail`, `firstName`, `lastName`
-* Connect a new Destination: Emarsys Application
+* Connect a new Destination: SAP Emarsys Customer Engagement
   * https://help.sap.com/viewer/8438f051ded544d2ba1303e67fc5ff86/PROD/en-US/740254e05a4e4e5f9872c9416c0a63c0.html
   * Configuration:
     * username: sap_cdp_test009
     * secret: 19ZeNyuLL8JAUi1EkAjh
     * Emarsys Key identifier (key id): 3
-* Edit "Create a Contact in Emarsys" action:
+* Edit "Create a contact" action:
   * Settings screen:
     * Processing Purposes:
       * service
@@ -29,7 +29,7 @@ We'll also discuss how to manage access to outbound customer data via its action
     * firstName -> First Name
     * lastName -> Last Name
     * primaryEmail -> Email
-* Edit "Trigger External Event" action:
+* Edit "Trigger an external event" action:
   * Settings screen:
     * Rename to: Trigger Email Campaign
     * Processing Purposes:
