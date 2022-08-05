@@ -26,12 +26,10 @@ In this exercise we'll introduce SAP CDP's data governance and utilize it in ord
     * password: cs_c216cd8894207bf54adbbfb433884c23227944f8
     * api base url: https://myshop.gigya-cs.com
 * Edit its "Listen for new or updated order in real-time" event:
-  * Settings screen:
-    * Set its Required Processing Purposes to `marketing`
   * Mapping screen:
     * billing.email -> profile.primaryEmail
     * line_items.total -> orders.amount
-    * line_items.product -> orders.name (create field if not exist)
+    * line_items.name -> orders.name (create field if does not exist)
     * line_items.id -> orders.id
   * Listener screen:
     * Set the authentication type to be via query string
@@ -44,4 +42,9 @@ In this exercise we'll introduce SAP CDP's data governance and utilize it in ord
       * Then go to this url:
         * https://myshop.gigya-cs.com/wp-admin/admin.php?page=wc-settings&tab=advanced&section=webhooks
         * Configure a new webhook for "order updated" to the copied URL
+  * Order something on https://myshop.gigya-cs.com with the above credentials
+    * The order appears at Customer search as expected
+  * Edit its "Listen for new or updated order in real-time" event:
+    * Settings screen:
+      * Set its Required Processing Purposes to `marketing`
   * Orders will now be synced into SAP CDP only for customers that granted consent for the marketing purpose

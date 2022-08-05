@@ -38,7 +38,7 @@ We'll create a new `Connector` in order to create an action that will invoke an 
   * Mapping screen:
     * primaryEmail -> email
     * firstName -> firstName
-* Navigate to the "VIP GOLD" journey and edit it:
+* Navigate to the "VIP GOLD" flow and edit it:
   * Extend the flow:
     * After the last step [Emarsys Action], add:
       * "Is in a segment?" Decision step
