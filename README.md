@@ -18,6 +18,7 @@ This session introduces attendees to integrating SAP CDP on a mock commerce site
 
 ## Access
 * Please contact support in order to get a CDP business-unit to run the workshop on.
+* To get permissions for the workshop's test WooCommerce instance - request permissions to this [JSON file](https://sap.sharepoint.com/teams/CDP-Development/_layouts/15/download.aspx?UniqueId=e373a5bf3d9c46968a7ef05689bf47d5&e=CAknCV), download it and add it to the following directory: `shopping-cart-app/server/woocommerce.cred.json`
 * To access SAP CDP Console: 
   * https://universe.cdp.gigya.com
   * Login with the assigned user (password is the same as the user)
