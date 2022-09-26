@@ -17,8 +17,7 @@ This session introduces attendees to integrating SAP CDP on a mock commerce site
 * [if you are facing issues, try deleting the `package.lock` file]
 
 ## Access
-* In [this spreadsheet](https://sap-my.sharepoint.com/:x:/p/aliza_zeldin/EUD9VtKQflBKncwEtu2KuQsBV1c39jz9ivl3VHkGwy9yFw?e=KA3t9F) you can find a list of test SAP CDP business-units
-* Write your name in the "used by" column and use only that business unit
+* Please contact support in order to get a CDP business-unit to run the workshop on.
 * To access SAP CDP Console: 
   * https://universe.cdp.gigya.com
   * Login with the assigned user (password is the same as the user)
